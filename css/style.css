@@ -1,0 +1,403 @@
+ html {
+margin: 0;
+padding: 0;
+}
+
+body{
+margin: 0;
+padding: 0;
+color: #61402d;
+font-family: Verdana, Helvetica, Verdana, Arial, sans-serif;
+font-size: 11pt;
+}
+
+.cleardiv {
+clear: both;
+}
+
+#header {
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+}
+
+#header_right {
+float: right;
+margin-top: 55px;
+width: 400px;
+}
+
+#header_right p {
+color: #44564e;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+#runner{
+background-image: url(../images/bkg.jpg);
+background-repeat: repeat-x;
+height: 300px;
+width: 100%;
+padding: 0px;
+margin: 0px;
+margin-bottom: 50px;
+}
+
+#runner_right {
+float: right;
+height: 270px;
+width: 325px;
+padding: 0px;
+}
+
+#runner_inner{
+margin-left: auto;
+margin-right: auto;
+width: 850px;
+background: #3c4b44;
+padding: 0px;
+height: 300px;
+margin-bottom: 0;
+}
+
+#runner_inner ul {
+color: #ffe29e;
+padding-left: 10px;
+font-family: Garamond, 'Book Antiqua', Times, serif;
+font-weight: normal;
+padding-bottom: 0;
+margin-bottom: 0;
+border: none;
+list-style-type: none;
+margin-top: 20px;
+margin-left: 20px;
+font-size: 13pt;
+}
+
+#runner_inner ul a {
+color: #ffe29e;
+text-decoration: none;
+}
+
+#runner_inner ul a:hover {
+text-decoration: underline;
+}
+
+dfn {
+display: none;
+}
+
+h1 {
+color: #61402d;
+font-family: Garamond, 'Book Antiqua', Times, serif;
+font-style: italic;
+font-size: 48px;
+font-weight: normal;
+margin-top: 30px;
+margin-bottom: 15px;
+padding: 0;
+}
+
+h2 {
+color: #3c4b44;
+font-weight: normal;
+border-bottom: 1px solid #61402d;
+font-family: Book Antiqua, Times, serif;
+}
+
+#menu_wrap {
+background-image: url(../images/navbar_bkg.jpg);
+border-bottom: 5px solid #977d6c;
+height: 50px;
+width: 100%;
+}
+
+#menu1 {
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+margin-top: 0px;
+margin-bottom: 0;
+padding: 0;
+}
+
+#menu /* all lists */
+{
+   padding:0px;
+   margin: 0px;
+   font-size: 12pt;
+}
+
+#menu ul {
+list-style: none;
+padding-top: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#menu ul li {
+position: relative;
+}
+
+#menu ul li h3 {
+	display: block;
+	margin: 0;
+	padding: 5px;
+	color: #ffe29d;
+	text-transform: uppercase;
+	font-family: Trebuchet MS, Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12pt;
+	background: #4f281d;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#menu ul li ul li h3 {
+	display: block;
+	margin: 0;
+	padding: 5px;
+	color: #ffe29d;
+	text-transform: uppercase;
+	font-family: Trebuchet MS, Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12pt;
+	background: #4f281d;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+   width: 190px;
+
+}
+
+#menu li a
+{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #ffe29d;
+	text-transform: uppercase;
+	font-family: Trebuchet MS, Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+   }
+   
+#menu li:hover a
+{
+	left: auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #4f281d;
+	margin: 0;
+	padding: 5px;
+	text-transform: normal;
+		padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#menu li.sfhover a
+{
+	left: auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: #4f281d;
+	margin: 0;
+	padding: 5px;
+	text-transform: normal;
+		padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#menu a
+{
+   text-decoration: none;
+}
+#menu li /* all list items */
+{
+   float: left;
+   font-size: 12pt;
+   color: #A12830;
+}
+
+#menu li ul /* second-level lists */
+{
+   padding: 0px;
+   position: absolute;
+   background-color: #eaeaea;
+   width: 200px;
+   left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+}
+
+#menu li ul a /*styles the second level lis*/
+{
+   /*width: 200px;
+   padding:0px;*/
+   width: 190px;
+   padding: 5px;
+   border-top: none;
+   font-family: Helvetica, Arial, Verdana;
+   text-transform: none;
+}
+
+
+#menu li:hover ul a /*styles the second level lis*/
+{
+border-top: none;
+}
+
+#menu li.sfhover ul a /*styles the second level lis*/
+{
+border-top: none;
+}
+
+#menu li ul ul /* third-and-above-level lists */
+{
+   padding: 0px;
+   margin-left:200px;
+   margin-top:-14pt;
+}
+#menu li:hover ul ul, #menu li:hover ul ul ul, #menu li.sfhover ul ul, #menu li.sfhover ul ul ul
+{
+   left: -999em;
+}
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul /* lists nested under hovered list items */
+{ 
+   left: auto;
+   z-index: 5000000;
+}
+
+#menu li:hover ul li:hover a {
+background: #f2eddc;
+border-right: #f2eddc;
+color: #000;
+}
+
+#menu li.sfhover ul li.sfhover a {
+background: #f2eddc;
+border-right: #f2eddc;
+color: #000;
+
+}
+
+#menu li:hover ul li ul li:hover a {
+background: #b02c1b;
+border-right: #b02c1b;
+color: #000;
+}
+
+#runner_right h2 {
+color: #ffe29e;
+padding-left: 10px;
+font-family: Garamond, 'Book Antiqua', Times, serif;
+font-weight: normal;
+padding-bottom: 0;
+margin-bottom: 0;
+border: none;
+}
+
+#runner_right h2 a {
+text-decoration: none;
+color: #ffe29e;
+border: none;
+}
+
+#runner_right h3 {
+color: #fff;
+padding-left: 40px;
+font-family: Garamond, 'Book Antiqua', Times, serif;
+padding-top: 0;
+margin-top: 0;
+font-weight: normal;
+font-size: 12pt;
+}
+
+#content {
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+}
+
+p {
+color: #61402d;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-size: 11pt;
+line-height: 150%;
+}
+
+ul {
+color: #61402d;
+font-family: Helvetica, Verdana, Arial, sans-serif;
+font-size: 11pt;
+line-height: 150%;
+}
+
+p a {
+	color: #4f281d;	
+	}
+
+h3 {
+	color: #4f281d;	
+	}
+
+.heading {
+font-family: Garamond, 'Book Antiqua', Times, serif;
+font-size: 16pt;
+font-weight: bold;
+}
+
+#calendar {
+float: right;
+width: 275px;
+padding: 15px;
+border:  1px solid  #ccc;
+margin: 15px;
+}
+
+#calendar h4 {
+margin: 0;
+padding: 0;
+color: #473c36;
+}
+
+#calendar p {
+font-size: 9pt;
+margin: 0;
+padding-top: 0;
+padding-bottom: 20px;
+padding-left: 40px;
+}
+
+#footer {
+width: 100%;
+background: #3c4b44;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+color: #b8cbc1;
+}
+
+#footer a {
+color: #ffe7b1;
+text-decoration: none;
+padding-left: 20px;
+}
+
+#footer p {
+margin: 0;
+padding: 0;
+color: #b8cbc1;
+}

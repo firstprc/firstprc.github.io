@@ -1,0 +1,1 @@
+document.write('<img width=90 height=20 class="live_button" title="Live Webcast: OFF AIR" src="http://images.sa-media.com/images/liveaudio2-offair.gif">');
